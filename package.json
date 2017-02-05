@@ -1,9 +1,12 @@
 {
   "name": "ember-soundmanager2",
-  "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "version": "0.0.1",
+  "description": "Ember addon that provides for Soundmanager 2",
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "soundmanager2",
+    "audio",
+    "player"
   ],
   "license": "MIT",
   "author": "",
@@ -11,14 +14,15 @@
     "doc": "doc",
     "test": "tests"
   },
-  "repository": "",
+  "repository": "https://github.com/gandalfar/ember-soundmanager2",
   "scripts": {
     "build": "ember build",
     "start": "ember server",
     "test": "ember try:each"
   },
   "dependencies": {
-    "ember-cli-babel": "^5.1.7"
+    "ember-cli-babel": "^5.1.7",
+    "ember-cli-htmlbars": "^1.1.1"
   },
   "devDependencies": {
     "broccoli-asset-rev": "^2.4.5",
@@ -39,7 +43,8 @@
     "ember-resolver": "^2.0.3",
     "ember-source": "^2.12.0-beta.1",
     "ember-welcome-page": "^2.0.2",
-    "loader.js": "^4.1.0"
+    "loader.js": "^4.1.0",
+    "soundmanager2": "^2.97.20150601-a"
   },
   "engines": {
     "node": ">= 4"
